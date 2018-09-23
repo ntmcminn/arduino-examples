@@ -22,8 +22,8 @@ int apmode = 1;
 
 // setup for AP mode and web server
 // Replace with your network credentials
-String ssid     = "SmarterOpen AQ ";
-String password = "SmarterOpen";
+String ssid     = "YOUR SSID HERE";
+String password = "YOUR PASSWORD HERE";
 HTTPServer server = HTTPServer();
 IPAddress ip(192, 168, 0, 1);
 IPAddress subnet(255, 255, 255, 0);
